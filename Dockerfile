@@ -1,4 +1,4 @@
-FROM: centos: latest
+FROM centos: latest
 MAINTAINER abhishek.shukla@outlook.com
 RUN yum intsall -y httpd \
   zip \
