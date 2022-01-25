@@ -3,10 +3,10 @@ MAINTAINER abhishek.shukla@yahoo.com
 RUN yum install httpd -y \
   zip \
  unzip
-ADD https://www.free-css.com/assets/files/free-css-templates/download/page272/evolve.zip /var/www/html
+ADD https://www.free-css.com/assets/files/free-css-templates/download/page271/blugoon.zip
 WORKDIR /var/www/html
 RUN unzip evolve.zip
-RUN cp -rvf evolve/* .
+RUN cp -rvf 2116_blugoon/* .
 CMD ["/usr/sbin/httpd", "-D", "FOREGROUND"]
 EXPOSE 80
 
